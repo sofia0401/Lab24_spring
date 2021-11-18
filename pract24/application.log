@@ -1,0 +1,846 @@
+1491 [restartedMain] INFO  com.example.demo.Application
+                – Starting Application using Java 14.0.1 on DESKTOP-58O08QA with PID 14956 (C:\Users\1311114\Desktop\uni\4 семестр\java\pract24\target\classes started by Sofia in C:\Users\1311114\Desktop\uni\4 семестр\java\pract24)
+1499 [restartedMain] INFO  com.example.demo.Application
+                – No active profile set, falling back to default profiles: default
+1672 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+1675 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+                – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2691 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2826 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+                – Finished Spring Data repository scanning in 120 ms. Found 3 JPA repository interfaces.
+3713 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+                – Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$8e1a980c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+3775 [restartedMain] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping
+                – Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+4485 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat initialized with port(s): 8080 (http)
+4498 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Initializing ProtocolHandler ["http-nio-8080"]
+4501 [restartedMain] INFO  o.a.catalina.core.StandardService
+                – Starting service [Tomcat]
+4501 [restartedMain] INFO  o.a.catalina.core.StandardEngine
+                – Starting Servlet engine: [Apache Tomcat/9.0.43]
+4785 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring embedded WebApplicationContext
+4786 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext
+                – Root WebApplicationContext: initialization completed in 3106 ms
+5115 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper
+                – HHH000204: Processing PersistenceUnitInfo [name: default]
+5223 [restartedMain] INFO  org.hibernate.Version
+                – HHH000412: Hibernate ORM core version 5.4.28.Final
+5547 [restartedMain] INFO  o.h.annotations.common.Version
+                – HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+5876 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Starting...
+6819 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+                – HikariPool-1 - Start completed.
+6883 [restartedMain] INFO  org.hibernate.dialect.Dialect
+                – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+8826 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator
+                – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+8843 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+                – Initialized JPA EntityManagerFactory for persistence unit 'default'
+8918 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+                – LiveReload server is running on port 35729
+10043 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain
+                – Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@21e39e8f, org.springframework.security.web.context.SecurityContextPersistenceFilter@299aa8c9, org.springframework.security.web.header.HeaderWriterFilter@2f430c6a, org.springframework.security.web.authentication.logout.LogoutFilter@35ae08d5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@16518f9a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@51c09e36, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@281ae193, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b4d9393, org.springframework.security.web.session.SessionManagementFilter@50c0e3ae, org.springframework.security.web.access.ExceptionTranslationFilter@414e02c8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4ecbfad5]
+10295 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor
+                – Initializing ExecutorService 'applicationTaskExecutor'
+10603 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler
+                – Initializing ExecutorService 'taskScheduler'
+10730 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+                – Starting ProtocolHandler ["http-nio-8080"]
+10775 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+                – Tomcat started on port(s): 8080 (http) with context path ''
+10810 [restartedMain] INFO  com.example.demo.Application
+                – Started Application in 9.975 seconds (JVM running for 12.02)
+51086 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+51099 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+51374 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 287ms
+51412 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+51419 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+51447 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 35ms
+52060 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+52061 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+52065 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+52071 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+52071 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+52075 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+53064 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+53065 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+53071 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 7ms
+53076 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+53076 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+53079 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+54061 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+54061 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+54066 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+54070 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+54070 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+54075 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+55059 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+55060 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+55065 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+55070 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+55071 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+55075 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+56058 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+56058 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+56064 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+56068 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+56069 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+56074 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+57054 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+57054 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+57059 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+57065 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+57065 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+57070 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+58064 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+58064 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+58067 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 3ms
+58071 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+58071 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+58077 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 7ms
+59050 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+59050 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+59052 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 2ms
+59055 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+59055 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+59057 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 2ms
+60058 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+60058 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+60061 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 3ms
+60063 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+60064 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+60066 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 3ms
+61056 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+61056 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+61061 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+61066 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+61066 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+61071 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+62055 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+62056 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+62063 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 8ms
+62069 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+62069 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+62073 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+63067 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+63067 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+63073 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+63079 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+63079 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+63083 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+64065 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+64066 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+64073 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 8ms
+64080 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+64081 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+64087 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+65059 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+65059 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+65064 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+65070 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+65070 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+65076 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+66066 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+66067 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+66074 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 8ms
+66079 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+66080 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+66084 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+67056 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+67056 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+67059 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 3ms
+67062 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+67063 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+67065 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 3ms
+68064 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+68064 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+68068 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+68070 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+68070 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+68073 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 3ms
+69062 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+69062 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+69067 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+69071 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+69072 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+69076 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+70058 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+70058 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+70064 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+70068 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+70069 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+70072 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+71055 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+71056 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+71062 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 7ms
+71068 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+71069 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+71074 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+72061 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+72062 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+72072 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 11ms
+72077 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+72077 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+72081 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+73058 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+73058 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+73066 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 8ms
+73071 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+73072 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+73078 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 7ms
+74054 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+74054 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+74059 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+74065 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+74065 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+74069 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+74780 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+                – Initializing Spring DispatcherServlet 'dispatcherServlet'
+74781 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Initializing Servlet 'dispatcherServlet'
+74783 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+                – Completed initialization in 2 ms
+75065 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+75065 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+75069 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+75073 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+75073 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+75076 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 3ms
+76063 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+76063 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+76067 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+76070 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+76071 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+76073 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 3ms
+77060 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+77061 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+77064 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+77068 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+77068 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+77071 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 3ms
+78057 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+78057 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+78064 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 7ms
+78069 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+78069 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+78073 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+79067 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+79068 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+79073 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+79078 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+79079 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+79082 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+80067 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+80067 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+80073 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 7ms
+80078 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+80078 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+80083 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+81061 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+81061 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+81067 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+81072 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+81072 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+81076 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+82067 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+82067 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+82073 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+82080 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+82081 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+82086 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+83062 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+83062 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+83066 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+83071 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+83071 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+83076 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+84059 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+84060 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+84065 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+84069 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+84070 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+84075 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+85064 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+85064 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+85068 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+85073 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+85073 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+85077 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+86060 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+86061 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+86067 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 7ms
+86074 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+86074 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+86077 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+87053 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+87054 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+87060 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+87065 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+87066 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+87070 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+88067 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+88068 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+88073 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+88078 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+88078 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+88082 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+89063 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+89064 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+89070 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 7ms
+89074 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+89075 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+89080 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+90065 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+90065 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+90070 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+90074 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+90074 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+90078 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+91055 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+91055 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+91059 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+91063 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+91063 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+91068 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+91804 [http-nio-8080-exec-8] INFO  com.example.demo.Aspect
+                – Parameters: Sofia
+91875 [http-nio-8080-exec-8] INFO  com.example.demo.Aspect
+                – Method time: 71ms
+91882 [http-nio-8080-exec-8] ERROR o.s.s.w.a.UsernamePasswordAuthenticationFilter
+                – An internal error occurred while trying to authenticate the user.
+org.springframework.security.authentication.InternalAuthenticationServiceException: UserDetailsService returned null, which is an interface contract violation
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:95)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:133)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:85)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:222)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:887)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1684)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+92056 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+92056 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+92059 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 3ms
+92062 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+92063 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+92065 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 3ms
+93057 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+93057 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+93062 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+93065 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+93065 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+93068 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 3ms
+94055 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+94056 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+94059 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+94063 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+94063 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+94066 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 3ms
+95064 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+95064 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+95066 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 2ms
+95068 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+95068 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+95070 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 2ms
+96065 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+96066 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+96071 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+96076 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+96077 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+96080 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+97059 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+97059 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+97064 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+97067 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+97068 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+97070 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 3ms
+98065 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+98065 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+98067 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 2ms
+98070 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+98070 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+98073 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 3ms
+99067 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+99068 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+99074 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 7ms
+99079 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+99079 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+99083 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+100060 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+100060 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+100064 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+100069 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+100069 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+100073 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+101056 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+101057 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+101062 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+101067 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+101067 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+101071 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+102059 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+102060 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+102064 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+102069 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+102069 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+102073 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+103056 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+103056 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+103060 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+103064 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+103064 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+103068 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+104056 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+104057 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+104062 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+104066 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+104067 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+104071 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+105051 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+105051 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+105054 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 3ms
+105057 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+105057 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+105059 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 2ms
+106064 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+106065 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+106071 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 6ms
+106076 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+106076 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+106079 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 3ms
+107066 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+107066 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+107071 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+107075 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+107075 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+107079 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 4ms
+108058 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+108059 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+108063 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 5ms
+108066 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+108067 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+108069 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 3ms
+109052 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+109052 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+109053 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 1ms
+109055 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+109055 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+109056 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 1ms
+110058 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+110058 [scheduling-1] INFO  com.example.demo.DAO.PhoneDAO
+                – Get all phones
+110060 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 2ms
+110062 [scheduling-1] INFO  com.example.demo.Aspect
+                – Parameters: {}
+110062 [scheduling-1] INFO  com.example.demo.DAO.ManufactureDAO
+                – Get all manufactures
+110064 [scheduling-1] INFO  com.example.demo.Aspect
+                – Method time: 2ms

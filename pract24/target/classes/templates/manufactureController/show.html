@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Manufacture</title>
+</head>
+<body>
+<p th:text="'Производство '+${'ID = ' +manufacture.getId()}">ID</p>
+<p th:text="${'Название: ' +manufacture.getName()}">NAME</p>
+<p th:text="${'Адрес: ' +manufacture.getAddress()}">ADDRESS</p>
+<p>Продукты компании:</p>
+<div th:each="phones : ${manufacture.getPhoneSet()}">
+    <p th:text="'ID: '+${phones.getId()}"></p>
+    <p th:text="'Название: '+${phones.getName()}"></p>
+    <p th:text="'Год выпуска: '+${phones.getCreationYear()}"></p>
+
+
+</div>
+<form th:method="DELETE" th:action="@{/home/manufactures/{id}(id=${manufacture.getId()})}">
+    <input type="submit" value="Удалить"/>
+</form>
+
+</body>
+</html>

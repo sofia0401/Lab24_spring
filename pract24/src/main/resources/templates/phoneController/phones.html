@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Phones</title>
+</head>
+<body>
+<div th:each="phone : ${phones}">
+    <a th:href="@{/home/phones/{id}(id=${phone.getId()})}"
+       th:text="${'Телефон №' +phone.getId() + ': ' + phone.getName() + ', ' + phone.getCreationYear()}">Телефон</a>
+</div>
+<hr>
+<button type="submit" onClick="location.href='/home/phones/new'">Добавить телефон</button>
+
+
+</body>
+</html>

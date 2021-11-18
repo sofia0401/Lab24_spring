@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница</title>
+</head>
+<body>
+<h3 th:text="${user_login}"></h3>
+<a th:href="@{home/manufactures}">Производства</a>
+<a th:href="@{home/phones}">Телефоны</a>
+</body>
+</html>

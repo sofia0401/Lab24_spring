@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form th:action="@{/login}" th:method="post" >
+
+    <h2 class="form-signin-heading">Login</h2>
+        <p>
+            <label for="loginInput">Login</label>
+            <input type="text" id="loginInput" name="username" class="form-control" placeholder="login" required>
+        </p>
+        <p>
+            <label for="passwordInput">Password</label>
+            <input type="password" id="passwordInput" name="password" class="form-control" placeholder="password" required>
+        </p>
+        <button type="submit">Sign in</button>
+    </form>
+</body>
+</html>

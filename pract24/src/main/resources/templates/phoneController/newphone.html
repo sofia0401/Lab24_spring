@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Add new phone</title>
+</head>
+<body>
+<form th:method="POST" th:action="@{/home/phones}" th:object="${phone}">
+    <label for="name">Введите название: </label>
+    <input type="text" th:field="*{name}" id="name"/>
+    <br/>
+    <label for="creationYear">Введите год выпуска: </label>
+    <input type="text" th:field="*{creationYear}" id="creationYear"/>
+    <br/>
+    <label for="manufacture_ids">Выберите id фирмы: </label>
+    <input type="number" name="manufacture_id" list="manufacture_ids">
+    <datalist id="manufacture_ids">
+        <option th:each="manufacture : ${manufactures}" th:text="${manufacture.getId()}">
+        </option>
+    </datalist>
+    <input type="submit" value="Добавить"/>
+</form>
+
+</body>
+</html>

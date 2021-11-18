@@ -1,0 +1,1 @@
+[Manufacture{id=1, name='Apple', address='1 Apple Park Way, Cupertino, California, U.S.'}, Manufacture{id=2, name='Samsung', address='1, Seocho-daero 74-gil, Seocho District, Seoul, South Korea'}]

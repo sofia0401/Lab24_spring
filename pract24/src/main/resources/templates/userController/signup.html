@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+</head>
+<body>
+<form name="signUpUser" method="post" action="/signuperror">
+
+    <label for="loginInput" >Login</label>
+    <input class="form-control"
+           id="loginInput"
+           name="login" type="text" placeholder="login">
+    <br>
+    <div th:if="${Status} == 'user_exists'">
+        The user already exists
+    </div>
+    <label for="passwordInput">Password</label>
+    <input class="form-control"
+           id="passwordInput"
+           name="password" type="password"
+           placeholder="password">
+    <label for="matchingPasswordInput" >Confirm
+        password</label>
+    <input class="form-control"
+           id="matchingPasswordInput"
+           name="password2" type="password"
+           placeholder="password">
+    <br>
+    <div th:if="${Status} == 'password!=password2'">
+        Passwords are not matching
+    </div>
+    <button type="submit">Sign up</button>
+</form>
+</body>
+</html>

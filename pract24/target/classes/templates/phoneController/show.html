@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Phone</title>
+</head>
+<body>
+<p th:text="'Телефон '+${'ID = ' +phone.getId()}">ID</p>
+<p th:text="${'Название: ' +phone.getName()}">NAME</p>
+<p th:text="${'Год выпуска: ' +phone.getCreationYear()}">CREATIONYEAR</p>
+<p th:text="'Производитель: ' +${phone.getManufacture().getName()}">NAME</p>
+<form th:method="DELETE" th:action="@{/home/phones/{id}(id=${phone.getId()})}">
+    <input type="submit" value="Удалить"/>
+</form>
+
+</body>
+</html>
